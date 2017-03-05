@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mockup-PDF</title>
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Icon Text -->
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="my-start-row">
+            <div class="my-image-block">
+                <img src="img/linkedin-150small.jpg" class="profile-avatar img-responsive" alt="My Picture">
+            </div>
+
+            <div class="profile">
+                <h1 class="profile-name text-thin">Michael <br> Christensen</h1>
+                <h3 class="profile-job">Web Developer</h3>
+            </div>
+        </header>
+
+        <div class="row zero-margin">
+            <div class="col-sm-12">
+                <hr>
+            </div>
+        </div>
+		<!--https://www.w3schools.com/bootstrap/bootstrap_carousel.asp-->
+        <section class="row zero-margin">
+            <div class="col-sm-12">
+                <div class="carousel slide" id="carousel-portfolio" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel-portfolio" data-slide-to="0"></li>
+                        <li data-target="#carousel-portfolio" data-slide-to="1"></li>
+                        <li data-target="#carousel-portfolio" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="#" target="_blank">
+                                <img src="img/IMG_9870-2000large.JPG" sizes="100vw" srcset="img/IMG_9870-500small.JPG 500w, img/IMG_9870-1000medium.JPG 1000w, img/IMG_9870-2000large.JPG 2000w" class="img-responsive" alt="Surf Image 1" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" target="_blank">
+                                <img src="img/IMG_9872-2000large.JPG" sizes="100vw" srcset="img/IMG_9872-500small.JPG 500w, img/IMG_9872-1000medium.JPG 1000w, img/IMG_9872-2000large.JPG 2000w" class="img-responsive" alt="Surf Image 2" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" target="_blank">
+                                <img src="img/IMG_9874-2000large.JPG" sizes="100vw" srcset="img/IMG_9874-500small.JPG 500w, img/IMG_9874-1000medium.JPG 1000w, img/IMG_9874-2000large.JPG 2000w" class="img-responsive" alt="Surf Image 3" />
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#carousel-portfolio" class="left carousel-control" data-slide="prev" role="button">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#carousel-portfolio" class="right carousel-control" data-slide="next" role="button">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <main class="row zero-margin">
+            <div class="col-sm-12">
+                <h2 class="project-featured">Featured Work</h2>
+            </div>
+            <article class="col-sm-4">
+                <a href="https://github.com/christensenmichael0/Titantic_Data_Analysis" class="thumbnail" target="_blank">
+                    <img src="img/titanic-600large.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/titanic-200small.jpg 200w, img/titanic-400medium.jpg 399w, img/titanic-600large.jpg 600w " class="img-responsive" alt="titanic-sinking" />
+                </a>
+                <div class="project">
+                    <h3 class="project-title">Investigate Data</h3>
+                    <p><a href="https://github.com/christensenmichael0/Titantic_Data_Analysis" class="project-link" target="_blank">Github Repository</a></p>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <a href="https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling" class="thumbnail" target="_blank">
+                    <img src="img/osm-600large.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/osm-200small.jpg 200w, img/osm-400medium.jpg 399w, img/osm-600large.jpg 600w" class="img-responsive" alt="openstreetmap-image" />
+                </a>
+                <div class="project">
+                    <h3 class="project-title">Wrangle Data</h3>
+                    <p><a href="https://github.com/christensenmichael0/Open_Street_Map_Data_Wrangling" class="project-link" target="_blank">Github Repository</a></p>
+                </div>
+            </article>
+            <article class="col-sm-4">
+                <a href="https://github.com/christensenmichael0/RouteWatch" class="thumbnail" target="_blank">
+                    <img src="img/drunk_driving-600large.jpg" sizes="(max-width: 767px) 100vw, 33vw" srcset="img/drunk_driving-200small.jpg 200w, img/drunk_driving-400medium.jpg 399w, img/drunk_driving-600large.jpg 600w" class="img-responsive" alt="drunk-driving-image" />
+                </a>
+                <div class="project">
+                    <h3 class="project-title">Visualize Data</h3>
+                    <p><a href="https://github.com/christensenmichael0/RouteWatch" class="project-link" target="_blank">Github Repository</a></p>
+                </div>
+            </article>
+        </main>
+
+        <footer class="row zero-margin">
+            <div class="footer col-sm-12">
+                <ul id="icon-list">
+                    <li class="fontawesome-github my-icons make-black">
+                        <a href="https://github.com/christensenmichael0" target="_blank"></a>
+                    </li>
+                    <li class="fontawesome-linkedin my-icons make-blue">
+                        <a href="https://www.linkedin.com/in/christensenmichael0" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
